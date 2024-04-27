@@ -143,6 +143,6 @@ int main() {
     STK *s2 = create_stack(2 * nrv);
 
     insert_edges(graf, edg_nr, nrv);
-
     can_be_reached(graf, nrv, s1, s2);
+    //totul pare sa mearga
 }
